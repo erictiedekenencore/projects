@@ -1,0 +1,172 @@
+/* Title */
+.title {}
+.title h2 {
+    margin-bottom: 25px;
+}
+.title p {
+    margin-bottom: 25px;
+}
+/* Title */
+
+
+/* Top Styled List */
+.pick, .personalize, .share {
+    margin-bottom: 25px;
+}
+
+.pick div:last-child p,
+.personalize div:last-child p,
+.share div:last-child p {
+    margin: 20px 0;
+}
+.pick div:first-child p,
+.personalize div:first-child p,
+.share div:first-child p {
+    padding: 15px 0 15px 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(#751165), to(white));
+    background-image: -webkit-linear-gradient(left, #751165, white);
+    background-image: -moz-linear-gradient(left, #751165, white);
+    background-image: linear-gradient(to right, #751165, white);
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+    line-height: 22px;
+}
+.pick img,
+.personalize img,
+.share img {
+    display: inline-block;
+}
+.pick div:nth-child(2),
+.personalize div:nth-child(2),
+.share div:nth-child(2) {
+    text-align: center;
+}
+
+@media (min-width: 540px) {
+    .pick div:nth-child(2),
+    .personalize div:nth-child(2),
+    .share div:nth-child(2) {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .pick, .personalize, .share {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .pick div, .personalize div, .share div {
+        flex: 1 1 auto;
+    }
+    .personalize div:first-child {
+        order: 1;
+    }
+    .personalize div:nth-child(2) {
+        order: 3;
+    }
+    .personalize div:last-child {
+        order: 2;
+    }
+    .pick div:last-child p,
+    .personalize div:last-child p,
+    .share div:last-child p {
+        padding: 15px 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pick, .personalize, .share {
+        display: block;
+        align-items: flex-start;
+    }
+    .personalize div:nth-child(2) {
+        order: 2;
+    }
+    .personalize div:last-child {
+        order: 3;
+    }
+    .pick div:first-child p,
+    .personalize div:first-child p,
+    .share div:first-child p,
+    .pick div:last-child p,
+    .personalize last:first-child p,
+    .share div:last-child p {
+        padding: 20px 0 20px 30px;
+    }
+    .pick div:first-child p,
+    .share div:first-child p,
+    .pick div:last-child p,
+    .personalize div:last-child p,
+    .share div:last-child p {
+        margin-left: 20px;
+    }
+    .personalize div:first-child p {
+        margin-right: 20px;
+    }
+}
+/* Top Styled List */
+
+
+/* New section */
+.new {
+    background-color: #eff5fb;
+    padding: 10px;
+    margin: 30px 0;
+}
+.new h2 {
+    color: #5a5a5a;
+    padding-bottom: 5px;
+    margin: 10px 0 20px 0;
+    border-bottom: 1px solid #5a5a5a;
+    font-weight: bold;
+}
+.new ul {
+    margin: 30px 0 10px 0;
+}
+.new li {
+    margin: 15px 0;
+}
+/* New section */
+
+
+/* Toolkit */
+.toolkit {}
+.toolkit h2 {
+    color: #5a5a5a;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+}
+.toolkit img {
+    display: inline-block;
+}
+.toolkit div:last-child {
+    text-align: center
+}
+@media (min-width: 768px) {
+    .toolkit {
+        display: flex;
+        align-items: center;
+    }
+    .toolkit div:first-child {
+        padding-left: 30px;
+    }
+}
+/* Toolkit */
+
+
+/* Avery */
+.avery {
+    background-color: #1b438b;
+    color: white;
+}
+.avery ul {
+    padding: 0;
+}
+.avery li {
+    width: 114px;
+    display: inline-block;
+    list-style-type: none;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>Print Shop Professional</title>
+		<style type="text/css">
+			html, body { margin: 0; overflow: hidden; }
+			div { text-align: center; }
+			a { color: #000000; }
+			body, div, p, h6, h5, h4, h3, h2, h1 { font-size: 0; line-height: 1; }
+			body, div, a, img, a img {
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				outline: none;
+			}
+		</style>
+  </head>
+  <body>
+		<a id="linkBottom" href="http://go.encoreusa.com/1552" target="_blank"><img src="PS4-DynamicWindow_PhotoZoom7.jpg" id="imageBottom" width="550" height="1331" /></a>
+		<script type="text/javascript">
+			var obj = document.body;  // obj=element for example body
+			// bind mousewheel event on the mouseWheel function
+			if (obj.addEventListener) {
+				obj.addEventListener('DOMMouseScroll', mouseWheel, false);
+				obj.addEventListener("mousewheel", mouseWheel, false);
+			} else {
+				obj.onmousewheel = mouseWheel;
+			}
+			function mouseWheel(e) {
+				// disabling
+				e = e ? e : window.event;
+				if (e.ctrlKey) {
+					if (e.preventDefault) e.preventDefault();
+					else e.returnValue = false;
+					return false;
+				}
+			}
+			function udli(linkBottom, imageBottom) {
+				var dlinkBottom = document.getElementById("linkBottom");
+				dlinkBottom.href = linkBottom;
+				var dimageBottom = document.getElementById("imageBottom");
+				dimageBottom.src = imageBottom;
+			}
+			udli("http://go.encoreusa.com/1552", "PS4-DynamicWindow_PhotoZoom7.jpg");
+		</script>
+  </body>
+</html>
