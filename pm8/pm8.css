@@ -296,6 +296,13 @@
     background-color: #fbf7fa;
 }
 @media (min-width: 768px) {
+    .social h3 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .social > div {
+        text-align: left;
+    }
     .social div div:nth-child(2),
     .social div div:last-child {
         float: right;
@@ -311,7 +318,12 @@
         flex: 1 0 auto;
         width: 100%;
     }
+    .social h3 {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
     .social > div {
+        text-align: center;
         flex: 1 1 auto;
         align-content: center;
     }
