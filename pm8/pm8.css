@@ -3,6 +3,7 @@
     margin: 30px 0;
 }
 .title h2 {
+    color: #5a5a5a;
     margin-bottom: 25px;
 }
 .title p {
@@ -335,12 +336,58 @@
 .avery {
     background-color: #1b438b;
     color: white;
+    margin: 30px 0;
+    padding: 30px 0;
 }
 .avery ul {
     padding: 0;
+    margin: 20px 0;
 }
 .avery li {
     width: 114px;
     display: inline-block;
     list-style-type: none;
+    margin: 20px 0;
+    vertical-align: middle;
 }
+.avery li img {
+    margin-bottom: 10px;
+}
+.avery p {
+    margin: 30px 0;
+}
+/* Avery*/
+
+
+/* Easy */
+.easy {
+    margin: 30px 0;
+}
+.easy h2 {
+    color: #5a5a5a;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.easy ul {
+    list-style-type: none;
+}
+.easy div {
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    padding: 5px;
+}
+.easy img {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.easy p {
+    margin: 15px 0 25px 0;
+    font-size: 16px;
+}
+/* Easy */
